@@ -23,6 +23,7 @@ int main(int argc, char *argv[]) {
         .parameter_required = cmdarg::Argument::ParameterRequired::REQUIRED,
         .help = "A simple counter with a rather long helpful message indeed",
         .default_value = "5",
+        .action = cmdarg::actions::store_int,
     });
 
     p.addArgument({

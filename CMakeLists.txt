@@ -21,12 +21,12 @@ include(cmakeopts/CMakeLists.txt)
 # ---------------- Targets Configuration ----------------- #
 # ======================================================== #
 
-set(LIBRARY_NAME            cmdarg)
-set(LIBRARY_TYPE            SHARED)
-set(LIBRARY_VERSION         0.1)
-set(LIBRARY_SOVERSION       0)
-set(LIBRARY_INCLUDEDIR  "include/public")
-set(LIBRARY_INCLUDEDIR_PRIVATE    "include/private")
+set(LIBRARY_NAME                cmdarg)
+set(LIBRARY_TYPE                SHARED)
+set(LIBRARY_VERSION             0.1)
+set(LIBRARY_SOVERSION           0)
+set(LIBRARY_INCLUDEDIR          "include/public")
+set(LIBRARY_INCLUDEDIR_PRIVATE  "include/private")
 
 # set(LIBRARY_PROPERTIES      )
 # set(LIBRARY_DEPENDENCIES    )

@@ -21,10 +21,10 @@ struct Argument {
     };
 
     const char *long_opt;
-    const char short_opt;
-    const bool required;
-    const ParameterRequired parameter_required;
-    const char *help;
+    const char short_opt = 0;
+    const bool required = false;
+    const ParameterRequired parameter_required = ParameterRequired::NO;
+    const char *help = "";
     const char *default_value = "";
     const ActionType action = actions::store_string;
 };

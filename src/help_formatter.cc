@@ -12,6 +12,7 @@
 #include <sstream>
 #include <string>
 #include <vector>
+#include <limits>
 
 // Project headers
 #include <cmdarg/help_formatter.hpp>

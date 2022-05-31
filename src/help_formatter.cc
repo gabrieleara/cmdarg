@@ -7,7 +7,7 @@
 
 // System headers
 #include <algorithm>
-#include <iostream>
+#include <iosfwd>
 #include <iterator>
 #include <sstream>
 #include <string>

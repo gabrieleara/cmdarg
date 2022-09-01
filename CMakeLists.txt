@@ -42,6 +42,4 @@ include(cmakeopts/library.cmake)
 
 # # ----------------------- Testing ------------------------ #
 
-# # include(CTest)
-# # enable_testing()
 add_subdirectory(test)

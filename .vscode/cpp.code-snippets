@@ -13,7 +13,7 @@
         "prefix": "header",
         "description": "Create the header guard for an include file",
         "body": [
-            "#pragma once",
+            "// #pragma once",
             "#ifndef $1",
             "#define $1",
             "",

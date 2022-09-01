@@ -1,7 +1,7 @@
 // Copyright 2022 Gabriele Ara
 // Licensed by GNU GENERAL PUBLIC LICENSE v3.0
 
-#pragma once
+// #pragma once
 #ifndef CMDARG_HELP_FORMATTER_H_
 #define CMDARG_HELP_FORMATTER_H_
 
